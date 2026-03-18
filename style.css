@@ -139,6 +139,16 @@ main h2 {
   color: #1a1a2e;
 }
 
+.pub-list .pub-title a {
+  color: #1a1a2e;
+  text-decoration: none;
+}
+
+.pub-list .pub-title a:hover {
+  color: #4a90d9;
+  text-decoration: underline;
+}
+
 .pub-list .pub-authors {
   font-size: 0.92rem;
   color: #555;
