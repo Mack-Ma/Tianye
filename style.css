@@ -100,10 +100,18 @@ main h2 {
   margin-bottom: 1.6rem;
   padding-left: 1rem;
   border-left: 3px solid #4a90d9;
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.pub-list .pub-info {
+  flex: 1;
 }
 
 .pub-figure-placeholder {
-  width: 100%;
+  width: 160px;
+  min-width: 160px;
   height: 160px;
   background-color: #eef1f7;
   border: 2px dashed #b0bcd4;
@@ -114,7 +122,14 @@ main h2 {
   color: #9aaac4;
   font-family: 'Arial', sans-serif;
   font-size: 0.85rem;
-  margin-bottom: 0.8rem;
+}
+
+.pub-figure {
+  width: 160px;
+  min-width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
 }
 
 .pub-list .pub-title {
@@ -141,6 +156,22 @@ main h2 {
 }
 
 .pub-list .pub-links a:hover {
+  text-decoration: underline;
+}
+
+.pub-note {
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.pub-note a {
+  color: #4a90d9;
+  text-decoration: none;
+}
+
+.pub-note a:hover {
   text-decoration: underline;
 }
 
