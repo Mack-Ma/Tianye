@@ -55,6 +55,7 @@ main {
 
 /* Page heading */
 main h1 {
+  font-family: 'HelveticaNeueLTPro-Cn', 'Helvetica Neue LT Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.8rem;
   color: #1a1a2e;
   margin-bottom: 1.5rem;
@@ -83,6 +84,7 @@ footer {
 
 /* Section subheadings */
 main h2 {
+  font-family: 'HelveticaNeueLTPro-Cn', 'Helvetica Neue LT Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.2rem;
   color: #1a1a2e;
   margin-top: 2rem;
@@ -228,6 +230,15 @@ main h2 {
 }
 
 /* About page */
+.photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #4a90d9;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
 .about-wrapper {
   display: flex;
   gap: 2.5rem;
@@ -252,6 +263,7 @@ main h2 {
 }
 
 .bio h1 {
+  font-family: 'HelveticaNeueLTPro-Cn', 'Helvetica Neue LT Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 2rem;
   color: #1a1a2e;
   margin-bottom: 0.3rem;
