@@ -4,325 +4,36 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tianye Ma</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Georgia', serif;
-      color: #2c2c2c;
-      background-color: #f9f9f9;
-      line-height: 1.7;
-    }
-
-    /* Navigation */
-    nav {
-      background-color: #1a1a2e;
-      padding: 0 2rem;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-
-    nav ul {
-      display: flex;
-      list-style: none;
-      gap: 2rem;
-      justify-content: flex-end;
-      max-width: 960px;
-      margin: 0 auto;
-    }
-
-    nav ul li a {
-      display: block;
-      padding: 1rem 0;
-      color: #ccd6f6;
-      text-decoration: none;
-      font-family: 'Arial', sans-serif;
-      font-size: 0.9rem;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      transition: color 0.2s;
-    }
-
-    nav ul li a:hover {
-      color: #ffffff;
-    }
-
-    /* Main layout */
-    main {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 2rem 2rem 4rem;
-    }
-
-    /* Section styling */
-    section {
-      padding: 3rem 0;
-      border-bottom: 1px solid #e0e0e0;
-    }
-
-    section:last-child {
-      border-bottom: none;
-    }
-
-    section h2 {
-      font-size: 1.6rem;
-      color: #1a1a2e;
-      margin-bottom: 1.5rem;
-      padding-bottom: 0.5rem;
-      border-bottom: 2px solid #4a90d9;
-      display: inline-block;
-    }
-
-    /* About Me */
-    #about {
-      display: flex;
-      gap: 2.5rem;
-      align-items: flex-start;
-      flex-wrap: wrap;
-    }
-
-    #about .photo {
-      width: 160px;
-      height: 160px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 3px solid #4a90d9;
-      flex-shrink: 0;
-    }
-
-    #about .photo-placeholder {
-      width: 160px;
-      height: 160px;
-      border-radius: 50%;
-      background-color: #dce3f0;
-      border: 3px solid #4a90d9;
-      flex-shrink: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #7a8db0;
-      font-size: 0.85rem;
-      text-align: center;
-    }
-
-    #about .bio {
-      flex: 1;
-      min-width: 260px;
-    }
-
-    #about .bio h1 {
-      font-size: 2rem;
-      color: #1a1a2e;
-      margin-bottom: 0.3rem;
-    }
-
-    #about .bio .affiliation {
-      font-size: 1rem;
-      color: #555;
-      margin-bottom: 1rem;
-    }
-
-    #about .bio p {
-      margin-bottom: 0.8rem;
-      font-size: 0.97rem;
-    }
-
-    #about .bio .contact a {
-      color: #4a90d9;
-      text-decoration: none;
-    }
-
-    #about .bio .contact a:hover {
-      text-decoration: underline;
-    }
-
-    /* Publications */
-    .pub-list {
-      list-style: none;
-    }
-
-    .pub-list li {
-      margin-bottom: 1.4rem;
-      padding-left: 1rem;
-      border-left: 3px solid #4a90d9;
-    }
-
-    .pub-list .pub-title {
-      font-weight: bold;
-      color: #1a1a2e;
-    }
-
-    .pub-list .pub-authors {
-      font-size: 0.92rem;
-      color: #555;
-    }
-
-    .pub-list .pub-venue {
-      font-size: 0.92rem;
-      color: #4a90d9;
-      font-style: italic;
-    }
-
-    .pub-list .pub-links a {
-      font-size: 0.85rem;
-      color: #4a90d9;
-      text-decoration: none;
-      margin-right: 0.8rem;
-    }
-
-    .pub-list .pub-links a:hover {
-      text-decoration: underline;
-    }
-
-    /* Resource */
-    .resource-list {
-      list-style: none;
-    }
-
-    .resource-list li {
-      margin-bottom: 0.8rem;
-    }
-
-    .resource-list a {
-      color: #4a90d9;
-      text-decoration: none;
-      font-size: 0.97rem;
-    }
-
-    .resource-list a:hover {
-      text-decoration: underline;
-    }
-
-    .resource-list .resource-desc {
-      font-size: 0.88rem;
-      color: #666;
-      margin-top: 0.2rem;
-    }
-
-    /* News */
-    .news-list {
-      list-style: none;
-    }
-
-    .news-list li {
-      display: flex;
-      gap: 1.5rem;
-      margin-bottom: 1rem;
-      font-size: 0.95rem;
-    }
-
-    .news-list .news-date {
-      color: #4a90d9;
-      font-weight: bold;
-      white-space: nowrap;
-      min-width: 90px;
-      font-family: 'Arial', sans-serif;
-      font-size: 0.88rem;
-    }
-
-    /* Placeholder text */
-    .placeholder {
-      color: #999;
-      font-style: italic;
-      font-size: 0.95rem;
-    }
-
-    /* Footer */
-    footer {
-      text-align: center;
-      padding: 1.5rem;
-      font-size: 0.82rem;
-      color: #aaa;
-      font-family: 'Arial', sans-serif;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <nav>
     <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#publications">Publications</a></li>
-      <li><a href="#resource">Resource</a></li>
-      <li><a href="#news">News</a></li>
+      <li><a href="index.html" class="active">About</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="resource.html">Resource</a></li>
+      <li><a href="news.html">News</a></li>
     </ul>
   </nav>
 
   <main>
-
-    <!-- About Me -->
-    <section id="about">
+    <div class="about-wrapper">
       <div class="photo-placeholder">Photo</div>
       <div class="bio">
         <h1>Tianye (Mack) Ma</h1>
         <p class="affiliation">Ph.D. Student &middot; University of California, Riverside</p>
         <p>
           I am a Ph.D. student at UC Riverside, advised by Dr. Weiwei Zhang in
-          <a href="http://memory.ucr.edu" style="color:#4a90d9;">The CONPAM Lab</a>.
+          <a href="http://memory.ucr.edu">The CONPAM Lab</a>.
           My research focuses on cognitive science, with broad interests spanning
           memory, perception, and computational modeling.
         </p>
-        <p class="contact">
+        <p>
           <strong>Email:</strong> <a href="mailto:mack_ma2018@outlook.com">mack_ma2018@outlook.com</a>
         </p>
       </div>
-    </section>
-
-    <!-- Publications -->
-    <section id="publications">
-      <h2>Publications</h2>
-      <p class="placeholder">Publications coming soon.</p>
-      <!--
-      Uncomment and fill in when ready:
-      <ul class="pub-list">
-        <li>
-          <div class="pub-title">Paper Title Here</div>
-          <div class="pub-authors"><strong>Tianye Ma</strong>, Co-author Name</div>
-          <div class="pub-venue">Journal / Conference Name, Year</div>
-          <div class="pub-links">
-            <a href="#">[PDF]</a>
-            <a href="#">[Code]</a>
-          </div>
-        </li>
-      </ul>
-      -->
-    </section>
-
-    <!-- Resource -->
-    <section id="resource">
-      <h2>Resource</h2>
-      <p class="placeholder">Resources coming soon.</p>
-      <!--
-      Uncomment and fill in when ready:
-      <ul class="resource-list">
-        <li>
-          <a href="#">Resource Name</a>
-          <div class="resource-desc">Brief description of the resource.</div>
-        </li>
-      </ul>
-      -->
-    </section>
-
-    <!-- News -->
-    <section id="news">
-      <h2>News</h2>
-      <p class="placeholder">News coming soon.</p>
-      <!--
-      Uncomment and fill in when ready:
-      <ul class="news-list">
-        <li>
-          <span class="news-date">Mar 2026</span>
-          <span>News item description here.</span>
-        </li>
-      </ul>
-      -->
-    </section>
-
+    </div>
   </main>
 
   <footer>
