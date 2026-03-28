@@ -4,29 +4,6 @@
   box-sizing: border-box;
 }
 
-/* MACK emblem watermark — NERV logo style, fixed center of viewport */
-body::before {
-  content: '';
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 420px;
-  height: 420px;
-  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 280 280'><polygon points='83,4 197,4 276,83 276,197 197,276 83,276 4,197 4,83' fill='%230e1826' stroke='%235b9ec9' stroke-width='2.5'/><polygon points='87,10 193,10 270,87 270,193 193,270 87,270 10,193 10,87' fill='none' stroke='%235b9ec9' stroke-width='0.8' opacity='0.5'/><path d='M 44,214 C 10,170 8,112 44,68 C 68,32 128,36 170,66 C 124,102 76,156 44,214 Z' fill='%23b82035'/><text x='152' y='152' text-anchor='middle' dominant-baseline='middle' font-family='Arial Black,Arial' font-weight='900' font-size='44' fill='white' letter-spacing='3'>MACK</text><text x='140' y='257' text-anchor='middle' font-family='Arial' font-size='7' fill='%235b9ec9' letter-spacing='1.5'>MODELS WITHOUT INTERPRETATION WILL BE USELESS.</text></svg>");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  opacity: 0.055;
-  pointer-events: none;
-  z-index: 0;
-}
-
-main {
-  position: relative;
-  z-index: 1;
-}
-
 /* Text selection — Rei's crimson eyes */
 ::selection {
   background-color: #b82035;
@@ -69,23 +46,6 @@ nav {
   z-index: 100;
 }
 
-/* NERV-style org label */
-.nav-org {
-  position: absolute;
-  left: 2rem;
-  top: 50%;
-  transform: translateY(-50%);
-  font-family: 'Arial', sans-serif;
-  font-size: 0.75rem;
-  font-weight: bold;
-  letter-spacing: 0.3em;
-  color: #b82035;
-  text-transform: uppercase;
-  border-left: 2px solid #b82035;
-  padding-left: 0.5rem;
-  line-height: 1;
-  user-select: none;
-}
 
 nav ul {
   display: flex;
