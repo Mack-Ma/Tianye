@@ -6,14 +6,14 @@
 
 body {
   font-family: 'Georgia', serif;
-  color: #2c2c2c;
-  background-color: #f5f5f5;
+  color: #2a1f2d;
+  background-color: #faf6ee;
   line-height: 1.7;
 }
 
 /* Navigation */
 nav {
-  background-color: #0c1340;
+  background-color: #2d1b4e;
   padding: 0 2rem;
   position: sticky;
   top: 0;
@@ -32,7 +32,7 @@ nav ul {
 nav ul li a {
   display: block;
   padding: 1rem 0;
-  color: #ccd6f6;
+  color: #d4c4e8;
   text-decoration: none;
   font-family: 'Arial', sans-serif;
   font-size: 0.9rem;
@@ -57,10 +57,10 @@ main {
 main h1 {
   font-family: 'HelveticaNeueLTPro-Cn', 'Helvetica Neue LT Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.8rem;
-  color: #0c1340;
+  color: #2d1b4e;
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #e8002d;
+  border-bottom: 2px solid #8b5ea6;
   display: inline-block;
 }
 
@@ -71,7 +71,7 @@ footer {
   font-size: 0.82rem;
   color: #aaa;
   font-family: 'Arial', sans-serif;
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid #e0d8ec;
   margin-top: 2rem;
 }
 
@@ -86,7 +86,7 @@ footer {
 main h2 {
   font-family: 'HelveticaNeueLTPro-Cn', 'Helvetica Neue LT Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.2rem;
-  color: #0c1340;
+  color: #2d1b4e;
   margin-top: 2rem;
   margin-bottom: 1rem;
   padding-bottom: 0.3rem;
@@ -101,7 +101,7 @@ main h2 {
 .pub-list li {
   margin-bottom: 1.6rem;
   padding-left: 1rem;
-  border-left: 3px solid #e8002d;
+  border-left: 3px solid #8b5ea6;
   display: flex;
   gap: 1.5rem;
   align-items: flex-start;
@@ -115,13 +115,13 @@ main h2 {
   width: 160px;
   min-width: 160px;
   height: 160px;
-  background-color: #f0e8e8;
-  border: 2px dashed #c4a0a0;
+  background-color: #f0eaf8;
+  border: 2px dashed #c4a8d4;
   border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #9aaac4;
+  color: #9a7db0;
   font-family: 'Arial', sans-serif;
   font-size: 0.85rem;
 }
@@ -131,22 +131,22 @@ main h2 {
   min-width: 160px;
   height: 160px;
   object-fit: contain;
-  background-color: #f9f9f9;
+  background-color: #faf6ee;
   border-radius: 6px;
 }
 
 .pub-list .pub-title {
   font-weight: bold;
-  color: #0c1340;
+  color: #2d1b4e;
 }
 
 .pub-list .pub-title a {
-  color: #0c1340;
+  color: #2d1b4e;
   text-decoration: none;
 }
 
 .pub-list .pub-title a:hover {
-  color: #e8002d;
+  color: #8b5ea6;
   text-decoration: underline;
 }
 
@@ -157,13 +157,13 @@ main h2 {
 
 .pub-list .pub-venue {
   font-size: 0.92rem;
-  color: #e8002d;
+  color: #8b5ea6;
   font-style: italic;
 }
 
 .pub-list .pub-links a {
   font-size: 0.85rem;
-  color: #e8002d;
+  color: #8b5ea6;
   text-decoration: none;
   margin-right: 0.8rem;
 }
@@ -180,7 +180,7 @@ main h2 {
 }
 
 .pub-note a {
-  color: #e8002d;
+  color: #8b5ea6;
   text-decoration: none;
 }
 
@@ -198,7 +198,7 @@ main h2 {
 }
 
 .resource-list a {
-  color: #e8002d;
+  color: #8b5ea6;
   text-decoration: none;
   font-size: 0.97rem;
 }
@@ -224,7 +224,7 @@ main h2 {
   margin-bottom: 1rem;
   font-size: 0.95rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #e8e0f0;
 }
 
 .news-list li:last-child {
@@ -232,7 +232,7 @@ main h2 {
 }
 
 .news-list .news-date {
-  color: #e8002d;
+  color: #8b5ea6;
   font-weight: bold;
   white-space: nowrap;
   min-width: 90px;
@@ -245,7 +245,7 @@ main h2 {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: 3px solid #e8002d;
+  border: 3px solid #8b5ea6;
   object-fit: cover;
   flex-shrink: 0;
 }
@@ -262,13 +262,13 @@ main h2 {
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  background-color: #f0e8e8;
-  border: 3px solid #e8002d;
+  background-color: #ede4f5;
+  border: 3px solid #8b5ea6;
   flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #7a8db0;
+  color: #9a7db0;
   font-size: 0.85rem;
   text-align: center;
 }
@@ -276,7 +276,7 @@ main h2 {
 .bio h1 {
   font-family: 'HelveticaNeueLTPro-Cn', 'Helvetica Neue LT Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 2rem;
-  color: #0c1340;
+  color: #2d1b4e;
   margin-bottom: 0.3rem;
   border: none;
   padding: 0;
@@ -295,7 +295,7 @@ main h2 {
 }
 
 .bio a {
-  color: #e8002d;
+  color: #8b5ea6;
   text-decoration: none;
 }
 
