@@ -4,6 +4,24 @@
   box-sizing: border-box;
 }
 
+/* Watermark */
+.watermark {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 420px;
+  height: 420px;
+  pointer-events: none;
+  z-index: 0;
+  filter: url(#recolor-watermark);
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
 /* Text selection — Rei's crimson eyes */
 ::selection {
   background-color: #b82035;
