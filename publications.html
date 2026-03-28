@@ -117,7 +117,8 @@
   <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden;">
     <defs>
       <filter id="recolor-watermark">
-        <feColorMatrix type="matrix" values="0.357 0 0 0 0  0.620 0 0 0 0  0.788 0 0 0 0  0 0 0 1 0"/>
+        <feColorMatrix type="matrix" values="0.357 0 0 0 0  0.620 0 0 0 0  0.788 0 0 0 0  0 0 0 1 0" result="recolored"/>
+        <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  1 1 1 0 0" in="recolored"/>
       </filter>
     </defs>
   </svg>
