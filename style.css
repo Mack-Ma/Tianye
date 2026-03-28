@@ -46,6 +46,24 @@ nav {
   z-index: 100;
 }
 
+/* NERV-style org label */
+.nav-org {
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Arial', sans-serif;
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  color: #b82035;
+  text-transform: uppercase;
+  border-left: 2px solid #b82035;
+  padding-left: 0.5rem;
+  line-height: 1;
+  user-select: none;
+}
+
 nav ul {
   display: flex;
   list-style: none;
