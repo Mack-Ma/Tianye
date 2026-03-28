@@ -7,13 +7,13 @@
 /* Watermark */
 .watermark {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 420px;
-  height: 420px;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 160px;
+  height: 160px;
   pointer-events: none;
   z-index: 0;
+  opacity: 0.5;
   filter: url(#recolor-watermark);
 }
 
