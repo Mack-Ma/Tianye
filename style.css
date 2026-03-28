@@ -6,14 +6,14 @@
 
 body {
   font-family: 'Georgia', serif;
-  color: #2a1f2d;
-  background-color: #faf6ee;
+  color: #1a2030;
+  background-color: #eff4f8;
   line-height: 1.7;
 }
 
 /* Navigation */
 nav {
-  background-color: #2d1b4e;
+  background-color: #0e1826;
   padding: 0 2rem;
   position: sticky;
   top: 0;
@@ -32,7 +32,7 @@ nav ul {
 nav ul li a {
   display: block;
   padding: 1rem 0;
-  color: #d4c4e8;
+  color: #a8c8e0;
   text-decoration: none;
   font-family: 'Arial', sans-serif;
   font-size: 0.9rem;
@@ -57,10 +57,10 @@ main {
 main h1 {
   font-family: 'HelveticaNeueLTPro-Cn', 'Helvetica Neue LT Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.8rem;
-  color: #2d1b4e;
+  color: #0e1826;
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #8b5ea6;
+  border-bottom: 2px solid #5b9ec9;
   display: inline-block;
 }
 
@@ -71,7 +71,7 @@ footer {
   font-size: 0.82rem;
   color: #aaa;
   font-family: 'Arial', sans-serif;
-  border-top: 1px solid #e0d8ec;
+  border-top: 1px solid #ccd8e4;
   margin-top: 2rem;
 }
 
@@ -86,11 +86,11 @@ footer {
 main h2 {
   font-family: 'HelveticaNeueLTPro-Cn', 'Helvetica Neue LT Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.2rem;
-  color: #2d1b4e;
+  color: #0e1826;
   margin-top: 2rem;
   margin-bottom: 1rem;
   padding-bottom: 0.3rem;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #bfcfdb;
 }
 
 /* Publications */
@@ -101,7 +101,7 @@ main h2 {
 .pub-list li {
   margin-bottom: 1.6rem;
   padding-left: 1rem;
-  border-left: 3px solid #8b5ea6;
+  border-left: 3px solid #5b9ec9;
   display: flex;
   gap: 1.5rem;
   align-items: flex-start;
@@ -115,13 +115,13 @@ main h2 {
   width: 160px;
   min-width: 160px;
   height: 160px;
-  background-color: #f0eaf8;
-  border: 2px dashed #c4a8d4;
+  background-color: #ddeaf4;
+  border: 2px dashed #8ab8d4;
   border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #9a7db0;
+  color: #7aaac4;
   font-family: 'Arial', sans-serif;
   font-size: 0.85rem;
 }
@@ -131,39 +131,39 @@ main h2 {
   min-width: 160px;
   height: 160px;
   object-fit: contain;
-  background-color: #faf6ee;
+  background-color: #eff4f8;
   border-radius: 6px;
 }
 
 .pub-list .pub-title {
   font-weight: bold;
-  color: #2d1b4e;
+  color: #0e1826;
 }
 
 .pub-list .pub-title a {
-  color: #2d1b4e;
+  color: #0e1826;
   text-decoration: none;
 }
 
 .pub-list .pub-title a:hover {
-  color: #8b5ea6;
+  color: #b82035;
   text-decoration: underline;
 }
 
 .pub-list .pub-authors {
   font-size: 0.92rem;
-  color: #555;
+  color: #4a5568;
 }
 
 .pub-list .pub-venue {
   font-size: 0.92rem;
-  color: #8b5ea6;
+  color: #5b9ec9;
   font-style: italic;
 }
 
 .pub-list .pub-links a {
   font-size: 0.85rem;
-  color: #8b5ea6;
+  color: #5b9ec9;
   text-decoration: none;
   margin-right: 0.8rem;
 }
@@ -180,7 +180,7 @@ main h2 {
 }
 
 .pub-note a {
-  color: #8b5ea6;
+  color: #5b9ec9;
   text-decoration: none;
 }
 
@@ -198,7 +198,7 @@ main h2 {
 }
 
 .resource-list a {
-  color: #8b5ea6;
+  color: #5b9ec9;
   text-decoration: none;
   font-size: 0.97rem;
 }
@@ -224,7 +224,7 @@ main h2 {
   margin-bottom: 1rem;
   font-size: 0.95rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #e8e0f0;
+  border-bottom: 1px solid #ccd8e4;
 }
 
 .news-list li:last-child {
@@ -232,7 +232,7 @@ main h2 {
 }
 
 .news-list .news-date {
-  color: #8b5ea6;
+  color: #5b9ec9;
   font-weight: bold;
   white-space: nowrap;
   min-width: 90px;
@@ -245,7 +245,7 @@ main h2 {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: 3px solid #8b5ea6;
+  border: 3px solid #5b9ec9;
   object-fit: cover;
   flex-shrink: 0;
 }
@@ -262,13 +262,13 @@ main h2 {
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  background-color: #ede4f5;
-  border: 3px solid #8b5ea6;
+  background-color: #ddeaf4;
+  border: 3px solid #5b9ec9;
   flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #9a7db0;
+  color: #7aaac4;
   font-size: 0.85rem;
   text-align: center;
 }
@@ -276,7 +276,7 @@ main h2 {
 .bio h1 {
   font-family: 'HelveticaNeueLTPro-Cn', 'Helvetica Neue LT Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 2rem;
-  color: #2d1b4e;
+  color: #0e1826;
   margin-bottom: 0.3rem;
   border: none;
   padding: 0;
@@ -285,7 +285,7 @@ main h2 {
 
 .bio .affiliation {
   font-size: 1rem;
-  color: #555;
+  color: #4a5568;
   margin-bottom: 1rem;
 }
 
@@ -295,7 +295,7 @@ main h2 {
 }
 
 .bio a {
-  color: #8b5ea6;
+  color: #5b9ec9;
   text-decoration: none;
 }
 
