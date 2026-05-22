@@ -303,6 +303,7 @@ main h2::before {
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
+  max-width: 720px;
 }
 
 .news-list li:last-child {
